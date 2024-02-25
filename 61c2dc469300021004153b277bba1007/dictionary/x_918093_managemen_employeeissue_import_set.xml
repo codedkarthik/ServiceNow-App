@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c3040e8993a0021004153b277bba1069" extends="sys_import_set_row" label="EmployeeIssue Import Set" max_length="40" name="x_918093_managemen_employeeissue_import_set" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=devices" label="devices" max_length="40" name="u_devices" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=issue" label="issue" max_length="40" name="u_issue" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=manager" label="manager" max_length="40" name="u_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

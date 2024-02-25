@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_segment">
+    <sys_sg_form_segment action="INSERT_OR_UPDATE">
+        <embedded_screen display_value="Details">8bc390ca9300021004153b277bba10cf</embedded_screen>
+        <form display_value="Employee Form Screen">8bc390ca9300021004153b277bba10ce</form>
+        <header_view_config/>
+        <is_sticky>false</is_sticky>
+        <order>10</order>
+        <sys_class_name>sys_sg_form_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 11:02:02</sys_created_on>
+        <sys_id>47c390ca9300021004153b277bba10d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Management of Employee" source="x_918093_managemen">61c2dc469300021004153b277bba1007</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Management of Employee">61c2dc469300021004153b277bba1007</sys_scope>
+        <sys_update_name>sys_sg_form_segment_47c390ca9300021004153b277bba10d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 11:02:02</sys_updated_on>
+    </sys_sg_form_segment>
+</record_update>

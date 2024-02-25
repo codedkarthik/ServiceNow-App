@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="designation_department" table="x_918093_managemen_employee" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>designation_department</element>
+            <name>x_918093_managemen_employee</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:04:11</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>designation_department</sys_name>
+            <sys_package display_value="Management of Employee" source="x_918093_managemen">61c2dc469300021004153b277bba1007</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Management of Employee">61c2dc469300021004153b277bba1007</sys_scope>
+            <sys_update_name>sys_choice_x_918093_managemen_employee_designation_department</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:04:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dir</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CS director</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:11:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:12:08</sys_updated_on>
+            <value>csd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>exe</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CS  executive</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:07:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:08:14</sys_updated_on>
+            <value>cse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>man</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CS manager</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:04:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:06:31</sys_updated_on>
+            <value>csm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>sr.exe</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CS Sr.executive</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:06:39</sys_updated_on>
+            <value>csr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dir</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR director</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:11:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:12:14</sys_updated_on>
+            <value>hrd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>exe</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR executive</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:07:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:08:21</sys_updated_on>
+            <value>hre</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>man</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR manager</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:04:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:06:51</sys_updated_on>
+            <value>hrm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>sr.exe</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HR  Sr.executive</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:05:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:06:47</sys_updated_on>
+            <value>hrs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dir</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT director</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:11:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:12:02</sys_updated_on>
+            <value>itd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>exe</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT executive</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:07:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:08:29</sys_updated_on>
+            <value>ite</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>man</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT manager</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:04:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:07:00</sys_updated_on>
+            <value>itm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>sr.exe</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT  Sr.executive</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:05:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:06:54</sys_updated_on>
+            <value>its</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>sr.man</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Level 1</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:09:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:10:44</sys_updated_on>
+            <value>l1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>sr.man</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Level 2</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:10:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:10:48</sys_updated_on>
+            <value>l2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>sr.man</dependent_value>
+            <element>designation_department</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Level 3</label>
+            <language>en</language>
+            <name>x_918093_managemen_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-05 09:10:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-05 09:10:53</sys_updated_on>
+            <value>l3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

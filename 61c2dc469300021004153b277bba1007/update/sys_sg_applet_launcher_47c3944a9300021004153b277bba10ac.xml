@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Management of Employee</name>
+        <required_roles>admin</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 11:02:02</sys_created_on>
+        <sys_id>47c3944a9300021004153b277bba10ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Management of Employee</sys_name>
+        <sys_package display_value="Management of Employee" source="x_918093_managemen">61c2dc469300021004153b277bba1007</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Management of Employee">61c2dc469300021004153b277bba1007</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_47c3944a9300021004153b277bba10ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 11:02:02</sys_updated_on>
+        <title>Management of Employee</title>
+    </sys_sg_applet_launcher>
+</record_update>

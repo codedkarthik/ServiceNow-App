@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1943188a9300021004153b277bba102c" label="Employee" max_length="40" name="x_918093_managemen_employee" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="description" type="string"/>
+        <element choice="1" label="Designation" max_length="40" name="designation" reference_qual="null" reference_qual_condition="null" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Assistant Director" value="as.dir"/>
+                <element inactive_on_update="false" label="CEO" value="ceo"/>
+                <element inactive_on_update="false" label="CFO" value="cfo"/>
+                <element inactive_on_update="false" label="Directors" value="dir"/>
+                <element inactive_on_update="false" label="Executive" value="exe"/>
+                <element inactive_on_update="false" label="Manager" value="man"/>
+                <element inactive_on_update="false" label="SR. Manager" value="sr.man"/>
+                <element inactive_on_update="false" label="SR.Executive" value="sr.exe"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="designation" dependent_on_field="designation" label="Designation Department" max_length="40" name="designation_department" reference_qual="null" reference_qual_condition="null" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="exe" inactive_on_update="false" label="CS  executive" value="cse"/>
+                <element dependent_value="dir" inactive_on_update="false" label="CS director" value="csd"/>
+                <element dependent_value="man" inactive_on_update="false" label="CS manager" value="csm"/>
+                <element dependent_value="sr.exe" inactive_on_update="false" label="CS Sr.executive" value="csr"/>
+                <element dependent_value="sr.exe" inactive_on_update="false" label="HR  Sr.executive" value="hrs"/>
+                <element dependent_value="dir" inactive_on_update="false" label="HR director" value="hrd"/>
+                <element dependent_value="exe" inactive_on_update="false" label="HR executive" value="hre"/>
+                <element dependent_value="man" inactive_on_update="false" label="HR manager" value="hrm"/>
+                <element dependent_value="sr.exe" inactive_on_update="false" label="IT  Sr.executive" value="its"/>
+                <element dependent_value="dir" inactive_on_update="false" label="IT director" value="itd"/>
+                <element dependent_value="exe" inactive_on_update="false" label="IT executive" value="ite"/>
+                <element dependent_value="man" inactive_on_update="false" label="IT manager" value="itm"/>
+                <element dependent_value="sr.man" inactive_on_update="false" label="Level 1" value="l1"/>
+                <element dependent_value="sr.man" inactive_on_update="false" label="Level 2" value="l2"/>
+                <element dependent_value="sr.man" inactive_on_update="false" label="Level 3" value="l3"/>
+            </choice>
+        </element>
+        <element label="Email" max_length="32" name="email" reference="sys_email" type="reference"/>
+        <element label="Employee Manager" max_length="32" name="employee_manager" reference="sys_user" type="reference"/>
+        <element label="Joining Date" max_length="40" name="joining_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Update Set Field" max_length="40" name="update_set_field" type="string"/>
+        <index name="index">
+            <element name="email"/>
+        </index>
+        <index name="index2">
+            <element name="employee_manager"/>
+        </index>
+        <index name="index3">
+            <element name="name"/>
+        </index>
+    </element>
+</database>
